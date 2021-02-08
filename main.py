@@ -112,6 +112,7 @@ def main():
                         with open(inp, 'r') as f:
                             inp = f.read()
                             print(english_to_morse(inp))
+                            print()
                         continue
                     except FileNotFoundError:
                         print('File Not Found')
